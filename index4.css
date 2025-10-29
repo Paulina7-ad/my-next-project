@@ -1,0 +1,65 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+
+}
+
+body {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: #a1aebe; 
+  
+  }
+
+
+
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact input,
+
+.contact textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+
+}
+
+.contact button {
+  padding: 10px;
+  background:  #242a45;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.contact button:hover {
+
+  background: #0054d3;
+
+}
