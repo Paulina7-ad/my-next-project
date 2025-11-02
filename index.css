@@ -294,8 +294,12 @@ border-style: outset;
   gap: 2rem;
   padding: 20px;
   justify-content: center;
+   
 
 }
+
+
+
 
 .speed hr{
   gap: 2rem;
@@ -317,15 +321,16 @@ border-style: outset;
 }
 
 .active {
-text-decoration: none;
+  text-decoration: none;
   color: gray; 
- text-decoration-line: underline;
+  border-bottom-color: #fa5757;
+  border-bottom-style:inset;
   
-}
 
-.speed :hover{
-  color: #fa5757;
 }
+  
+
+
 
 .search{
   text-decoration: none;
@@ -404,6 +409,8 @@ text-decoration: none;
 .chrome :hover{
   transition: all;
   transform: scale(1.05);
+  
+
 }
 
 
@@ -426,7 +433,7 @@ text-decoration: none;
   padding: 20px;
   border-radius: 10px;
   width: 250px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 5px 9px 9px rgba(0,0,0,0.1);
  
 }
 
@@ -445,6 +452,7 @@ text-decoration: none;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   position: relative;
  bottom: -2vw;
+ border: 3px solid #6837f0;
   
 }
 .chrome2 img{
@@ -685,7 +693,7 @@ footer {
   position: relative;
   bottom: -15vw;
   max-width: 400px;
-   justify-content: center;
+  justify-content: center;
 }
 
   
@@ -900,6 +908,35 @@ footer {
 .free{
   margin-right: 50px;
 }
+
+
+.active {
+  text-decoration: none;
+  color: gray; 
+  border-bottom-color: #fa5757;
+  border-bottom-style:inset;
+ width: 202px;
+ position: relative;
+ left: 22vw;
+  
+
+}
+
+
+.logo{
+  position: relative;
+  left: -3vw;
+}
+
+
+
+
+
+
+
+
+
+
 
 }
 
