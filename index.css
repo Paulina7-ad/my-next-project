@@ -248,6 +248,8 @@ border-style: outset;
   gap: 2rem;
   padding: 20px;
   justify-content: center;
+ 
+
    
 
 }
@@ -606,73 +608,55 @@ footer {
 }
 
 
-.dropdown-menu{
-    display: none;
-    position: absolute;
-    background: white;
-    min-width: 160px;
-    top: 45px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
-    overflow: hidden;
-    font-size: 15px;
+.logo{
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.dropdown-menu a{
-    color: #2563eb;
-    padding: 10px;
+nav{
+    display: flex;
+    gap: 2rem;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
+nav a{
+    color: rgb(22, 1, 1);
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 17px;
 }
 
-
-.burger{
-    display: none;
-    font-size: 28px;
+.menu-btn{
+    background: none;
+    border: none;
     color: white;
+    font-size: 28px;
     cursor: pointer;
-}
-
-#toggle-menu{
     display: none;
 }
 
-.navbar{
+
+header{
+    background: #ccbcbc;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 30px;
-    position: relative;
+    padding: 15px 20px;
     gap: 2rem;
 }
 
-
-
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    font-size: 25px;
+.Login{
+   background-color: #fa5757;
+    border-style: none;
+    color: white;
+    border-radius: 5px;  
+    padding: 5px ; 
 }
 
-.nav-links li{
-    position: relative;
-}
 
-.nav-links a{
-    color: black;
-    padding: 12px 18px;
-    text-decoration: none;
-    display: block;
-    gap: 2rem;
-}
 
-.nav-links a:hover{
-    background: #9fa2af;
-    border-radius: 5px;
-}
+
+
 
 
 
@@ -680,25 +664,6 @@ footer {
 
 @media (max-width: 768px) {
     
- .hero{
-  display: flex;
- }
-
- .Login{
-  display: none;
- }
-
- .menu-icon{
-  display: flex;
-  margin-left: 90px;
-  font-weight: bold;
-  font-size: 40px;
- }
- 
- .navbar a {
- display: none;
- 
- }
 
  
 .next-text{
@@ -707,6 +672,7 @@ footer {
   justify-content: center;
   position: relative;
   bottom: -15vw;
+  padding: 0px;
    
 }
 
@@ -819,18 +785,21 @@ footer {
 .back2{
   display: flex;
   background-color: #5368df;
-  height: 25vh;
+  height: 20vh;
   border-bottom-left-radius: 80px;
   margin-left: 9px;
   position: relative;
-  bottom: 6vw;
+  bottom: -15vw;
+  top: 9vw;
+
+
 }
 
 .mobile{
   width: 300px;
-  height: 350px;
+  height: 250px;
   position: relative;
-  bottom: 12vh;
+  bottom: 1vh;
   right: 15vw;
   display: flex;
   padding: 50px;
@@ -846,9 +815,17 @@ footer {
   bottom: 5vh;
   left: 1vw;
   
-
-  
 }
+
+
+.next-text h1{
+  padding: 1px;
+}
+
+.next-text p{
+  padding: 10px;
+}
+
 
 
 .back3{
@@ -944,69 +921,62 @@ footer {
 }
 
 
-.logo{
-  position: relative;
-  left: -3vw;
-}
-
-.burger{
-        display: block;
-        color: black;
-    }
-
-
-    .nav-links{
+   nav{  
+        display: none;
         position: absolute;
         top: 60px;
-        left: 0;
-        background: #2563eb;
-        width: 00%;
-        flex-direction: column;
-        display: none;
-
+        left: 70vw; 
+        border-color: #f03737;
+        width: 25%;
+        text-align: center;
+        padding: 2px 0;
+        background-color: none;
+        border-radius: 15px;
     }
 
-    #toggle-menu:checked ~ .nav-links{
-        display: flex;
+    nav a{
+        display: block;
+        margin: 15px 0;
     }
 
-    .nav-links a{
-        padding: 15px;
-    }
-
-
-    .dropdown-menu{
-        position: relative;
-        top: 0;
-        box-shadow: none;
-        background: #1e40af;
-    }
-
-    .dropdown-menu a{
-        color: white;
-    }
-
-    .dropdown:hover .dropdown-menu{
-        display: none; 
-    }
-
-    .dropdown input{
-        display: none;
-    }
-
-    
-    .dropdown > a:after{
-        content: "▾";
-        float: right;
-    }
-
-    .dropdown:hover > .dropdown-menu{
-        display: none;
-    }
-
-    .dropdown:focus-within .dropdown-menu{
+    .menu-btn{
         display: block;
     }
+
+
+    
+  .Login{
+    background-color: #5782fa;
+    border-style: none;
+    color: white;
+    border-radius: 5px;  
+    padding: 0; 
+    width: 80px;
+    height: 50px;
+    position: relative;
+    top: -3vw;
+   
+  
+    
+}
+
+header{
+    background: #ccbcbc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 2rem;
+}
+
+
+
+
+   
+
+
+    
 }
 
 
