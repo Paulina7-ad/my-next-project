@@ -583,7 +583,10 @@ footer {
   color: #5368df;
 }
 
-
+.links a{
+  color: white;
+  text-decoration: none;
+}
 
 
 .logo img{
@@ -619,17 +622,17 @@ nav{
 }
 
 nav a{
-    color: rgb(22, 1, 1);
+    color:black;
     text-decoration: none;
     margin-left: 15px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .menu-btn{
     background: none;
     border: none;
-    color: white;
-    font-size: 28px;
+    color: black;
+    font-size: 40px;
     cursor: pointer;
     display: none;
 }
@@ -751,6 +754,7 @@ header{
 .links {
   flex-direction: column;
   list-style: none;
+  
 }
 
 .socials img {
@@ -785,12 +789,11 @@ header{
 .back2{
   display: flex;
   background-color: #5368df;
-  height: 20vh;
+  height: 25vh;
   border-bottom-left-radius: 80px;
   margin-left: 9px;
   position: relative;
-  bottom: -15vw;
-  top: 9vw;
+  
 
 
 }
@@ -802,7 +805,7 @@ header{
   bottom: 1vh;
   right: 15vw;
   display: flex;
-  padding: 50px;
+  padding: 40px;
 
   
 }
@@ -932,6 +935,11 @@ header{
         padding: 2px 0;
         background-color: none;
         border-radius: 15px;
+    }
+
+
+    .nav1{
+      color: aliceblue;
     }
 
     nav a{
