@@ -58,14 +58,7 @@ body {
     border-radius: 5px;  
 }
 
-.navbar button{
-    background-color: #fa5757;
-    border-style: none;
-    color: white;
-    border-radius: 5px;  
-    padding: 5px 25px;
-   
-}
+
 
 
 .btn2 button{
@@ -616,6 +609,23 @@ footer {
     font-weight: bold;
 }
 
+
+.login {
+  background-color: #f03737;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  color: white; 
+}
+
+
+
+
+
+
+
+
+
 nav{
     display: flex;
     gap: 2rem;
@@ -624,8 +634,9 @@ nav{
 nav a{
     color:black;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 23px;
     font-size: 20px;
+    
 }
 
 .menu-btn{
@@ -645,16 +656,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.Login{
-   background-color: #fa5757;
-    border-style: none;
-    color: white;
-    border-radius: 5px;  
-    padding: 5px ; 
-}
 
 
 
@@ -789,10 +793,11 @@ header{
 .back2{
   display: flex;
   background-color: #5368df;
-  height: 25vh;
+  height: 20vh;
   border-bottom-left-radius: 80px;
   margin-left: 9px;
   position: relative;
+  bottom: -10vw;
   
 
 
@@ -800,7 +805,7 @@ header{
 
 .mobile{
   width: 300px;
-  height: 250px;
+  height: 260px;
   position: relative;
   bottom: 1vh;
   right: 15vw;
@@ -929,6 +934,7 @@ header{
         position: absolute;
         top: 60px;
         left: 70vw; 
+        bottom: -20vw;
         border-color: #f03737;
         width: 25%;
         text-align: center;
@@ -945,6 +951,10 @@ header{
     nav a{
         display: block;
         margin: 15px 0;
+        position: relative;
+        left: 4vw; 
+        bottom: -4vw;
+       
     }
 
     .menu-btn{
@@ -953,21 +963,7 @@ header{
 
 
     
-  .Login{
-    background-color: #5782fa;
-    border-style: none;
-    color: white;
-    border-radius: 5px;  
-    padding: 0; 
-    width: 80px;
-    height: 50px;
-    position: relative;
-    top: -3vw;
-   
   
-    
-}
-
 header{
     background: #ccbcbc;
     color: white;
